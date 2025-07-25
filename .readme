@@ -1,0 +1,41 @@
+Sonic Talking Avatar from Image and Audio File
+
+Go to Manager > Custom Nodes Manager and install:
+ComfyUI_Sonic
+ComfyUI-VideoHelperSuite
+ComfyUI-Easy-Use
+WAS Node Suite
+
+📂 MAIN FOLDER: ComfyUI/models/sonic/
+Download these files and place them directly in the sonic folder:
+📥 audio2bucket.pth
+📥 audio2token.pth
+📥 unet.pth
+📥 yoloface_v5m.pt
+
+📂 SUBFOLDER: ComfyUI/models/sonic/RIFE/
+First, create this subfolder
+Download and place inside RIFE folder:
+📥 flownet.pkl
+
+SUBFOLDER: ComfyUI/models/sonic/whisper-tiny/
+First, create this subfolder
+Download from here [huggingface] (https://huggingface.co/openai/whisper-tiny/tree/main) these 3 files and place inside whisper-tiny folder:
+📥 config.json
+📥 model.safetensors
+📥 preprocessor_config.json
+
+SVD CHECKPOINT: ComfyUI/models/checkpoints/
+Choose ONE of these Stable Video Diffusion models:
+📥 svd_xt.safetensors (Larger, ~ 9.56 GB)
+📥 svd_xt_1_1.safetensors (Smaller, ~ 4.78 GB)
+
+Hugging Face Access Steps:
+You must be logged into Hugging Face to download
+Click the "Expand to review and access" button
+Read the license agreement
+Enter your name and email
+Accept the terms of use
+Now you can download the model file
+
+Place the downloaded SVD file in ComfyUI/models/checkpoints folder
